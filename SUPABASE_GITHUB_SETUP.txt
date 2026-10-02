@@ -1,0 +1,20 @@
+DACHWERK – Supabase verbunden
+
+Diese Version enthält:
+- Supabase Auth Login
+- Supabase-Aufträge in public.dachwerk_orders
+- zentrale Auftragsnummer über next_dachwerk_order_number()
+- bestehendes Login/PDF/Zeiterfassung/Material-UI bleibt erhalten
+
+Supabase:
+URL: https://zwzwritlecmurmufzwje.supabase.co
+Publishable Key ist in login.js hinterlegt.
+
+Wichtig:
+- Nur den Publishable Key im Frontend verwenden.
+- Niemals service_role/secret keys in GitHub Pages eintragen.
+
+GitHub:
+In das Repository Supabase.Dachwerk den Inhalt des Ordners dwlogin hochladen
+bzw. bei bestehender Struktur die Dateien ersetzen.
+GitHub Pages: Deploy from branch -> main -> / (root), falls das Repository die Dateien direkt im Root hat.
